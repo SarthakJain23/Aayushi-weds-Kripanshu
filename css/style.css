@@ -1,0 +1,218 @@
+.preloader .icon:before {
+    border-top: 5px solid #caaf4a;
+}
+
+.preloader .icon i:before {
+    color: #caaf4a;
+}
+
+::-webkit-scrollbar-track {
+    background: #caaf4a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7a6a2d;
+}
+
+.header-style-1 .couple-logo a,
+.header-style-2 .couple-logo a {
+    color: #caaf4a;
+}
+
+.hero .wedding-announcement .save-the-date:after {
+    background-color: rgba(202, 175, 74, 0.3);
+}
+
+.hero .wedding-announcement .save-the-date:before {
+    background-color: rgba(202, 175, 74, 0.7);
+}
+
+.section-title .vertical-line span i:before,
+.section-title-white .vertical-line span i:before {
+    color: #caaf4a;
+}
+
+.section-title h2,
+.section-title-white h2 {
+    /* background-color: rgba(202, 175, 74, 0.5); */
+    background-color: #f9f9f9;
+    color: #7a6a2d;
+}
+
+.section-title .vertical-line:before,
+.section-title-white .vertical-line:before {
+    background-color: rgba(202, 175, 74, 0.2);
+}
+
+.section-title .vertical-line span,
+.section-title-white .vertical-line span {
+    background-color: rgba(202, 175, 74, 0.2);
+}
+
+.wedding-couple-section .details {
+    background-color: rgba(202, 175, 74, 0.5);
+    color: #7a6a2d;
+}
+
+.wedding-couple-section .details h3,
+.wedding-couple-section .details p {
+    color: #7a6a2d;
+}
+
+.wedding-couple-section .details .signature:before {
+    background-color: #7a6a2d;
+}
+
+.wedding-couple-section .details .social-links a {
+    background-color: #caaf4a;
+}
+
+.count-down-section #clock {
+    color: #caaf4a;
+}
+
+.events-section .event ul li i {
+    color: #caaf4a;
+}
+
+.events-section .event .see-location-btn {
+    color: #caaf4a;
+}
+
+.gallery-section .gallery-filters ul .current {
+    color: #caaf4a;
+}
+
+.rsvp-section .form .submit-btn button {
+    background-color: #caaf4a;
+}
+
+.music-box button {
+    background-color: #caaf4a;
+    color: #7a6a2d;
+}
+
+.getting-there-section {
+    background-color: #fff;
+}
+
+.getting-there-section .content h3,
+.getting-there-section .content p {
+    color: #caaf4a;
+}
+
+.wetales-footer {
+    padding: 8px;
+}
+
+.wetales-footer a {
+    color: #caaf4a;
+    font-family: "Dosis", sans-serif;
+}
+
+.wetales-footer li {
+    color: #caaf4a;
+}
+
+.events-section .event ul li {
+    color: #3c3c3c;
+}
+
+p {
+    color: #3c3c3c;
+}
+
+.inportant-people-section .grid .details>span {
+    color: #3c3c3c;
+}
+
+#couple-text {
+    font-size: larger;
+}
+
+#help {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+
+.help1 {
+    padding: 10px;
+}
+
+@media (max-width: 700px) {
+    #help {
+        flex-wrap: wrap;
+    }
+}
+
+#our-story {
+    padding: 120px 0 0 0;
+}
+
+@media (max-width: 1199px) {
+    #our-story {
+        padding: 100px 0 0 0;
+    }
+}
+
+@media (max-width: 991px) {
+    #our-story {
+        padding: 80px 0 0 0;
+    }
+}
+/* 
+body {
+    background-image: url('images/bg.jpg');
+    background-repeat: repeat;
+} */
+
+.gallery-img {
+    transition: all .5s ease-in-out;
+}
+
+.gallery-img:hover {
+    transform: scale(1.01);
+}
+
+.hotel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hotel-image {
+    transition: all .5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.hotel-image:hover {
+    transform: scale(1.03);
+}
+
+.hotel-details {
+    padding: 20px 0;
+    transition: all .5s ease-in-out;
+}
+
+.hotel-details:hover {
+    transform: scale(1.03);
+}
+
+@media (max-width: 1200px) {
+    .hotel-details>p{
+        text-align: center;
+    }
+}
+
+.count-down-section h2{
+    text-align: right;
+}
+
+@media (max-width: 991px) {
+    .count-down-section h2{
+        text-align: center;
+    }
+}
