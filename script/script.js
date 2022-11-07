@@ -290,13 +290,13 @@
     /*------------------------------------------
         = POPUP YOUTUBE, VIMEO, GMAPS
     -------------------------------------------*/
-    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
-    });
+    // $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+    //     type: 'iframe',
+    //     mainClass: 'mfp-fade',
+    //     removalDelay: 160,
+    //     preloader: false,
+    //     fixedContentPos: false
+    // });
 
 
 
@@ -469,15 +469,15 @@
     /*------------------------------------------
         = COUNTDOWN CLOCK
     -------------------------------------------*/
-    if ($("#clock").length) {
-        $('#clock').countdown('2022/12/08', function (event) {
-            var $this = $(this).html(event.strftime(''
-                + '<div class="box"><div>%D</div> <span>Days</span> </div>'
-                + '<div class="box"><div>%H</div> <span>Hours</span> </div>'
-                + '<div class="box"><div>%M</div> <span>Mins</span> </div>'
-                + '<div class="box"><div>%S</div> <span>Secs</span> </div>'));
-        });
-    }
+    // if ($("#clock").length) {
+        // $('#clock').countdown('2022/12/08', (event)=>{
+        //     var $this = $(this).html(event.strftime(''
+        //         + '<div class="box"><div>%D</div> <span>Days</span> </div>'
+        //         + '<div class="box"><div>%H</div> <span>Hours</span> </div>'
+        //         + '<div class="box"><div>%M</div> <span>Mins</span> </div>'
+        //         + '<div class="box"><div>%S</div> <span>Secs</span> </div>'));
+        // });
+    // }
 
 
     /*------------------------------------------
@@ -758,6 +758,6 @@ $('#helpline').click(() => {
 //     document.querySelector('.popup').style.display = 'none';
 // });
 
-$(document).bind("contextmenu", function (e) {
-    return false;
-});
+// $(document).bind("contextmenu", function (e) {
+//     return false;
+// });
